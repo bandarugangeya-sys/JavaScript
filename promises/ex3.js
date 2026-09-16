@@ -8,6 +8,6 @@ let prm=new Promise((resolve,reject)=>{
 prm.catch((rejected)=>{
 console.log('never',rejected)
 })
-prm.then((fullfilled)=>{
+.then((fullfilled)=>{
     console.log("later",fullfilled)
 })
